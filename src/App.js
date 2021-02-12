@@ -28,7 +28,7 @@ function App() {
   return (
     <div class="Calendar">
       <button className="ms-grid-col1 ms-grid-row1">Prev</button>
-      <h2 class="ms-grid-col2 ms-grid-row1 title">February</h2>  
+      <h2 class="ms-grid-col2 ms-grid-row1">February</h2>  
       <button className="ms-grid-col7 ms-grid-row1">Next</button>
 
               {day.map((day,i) =>
