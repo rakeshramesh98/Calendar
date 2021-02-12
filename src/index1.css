@@ -1,0 +1,133 @@
+.Calendar {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 70px 70px 70px 70px 70px 70px 70px;
+  grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+  grid-auto-rows: 50px;
+}
+
+.Calendar > * {
+  padding: 10px;
+}
+
+.prev {
+  -ms-grid-column: 1;
+  -ms-grid-row: 1;
+}
+
+.title {
+  -ms-grid-column: 3;
+  -ms-grid-row: 1;
+}
+
+.next {
+  -ms-grid-column: 7;
+  -ms-grid-row: 1;
+}
+
+.title {
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 4;
+  grid-column: 3 / span 4;
+}
+
+.day.start {
+  -ms-grid-column: 6;
+      grid-column-start: 6;
+}
+
+.days1 {
+  -ms-grid-column: 1;
+  -ms-grid-row: 2;
+}
+
+.days2 {
+  -ms-grid-column: 2;
+  -ms-grid-row: 2;
+}
+
+.days3 {
+  -ms-grid-column: 3;
+  -ms-grid-row: 2;
+}
+
+.days4 {
+  -ms-grid-column: 4;
+  -ms-grid-row: 2;
+}
+
+.days5 {
+  -ms-grid-column: 5;
+  -ms-grid-row: 2;
+}
+
+.days6 {
+  -ms-grid-column: 6;
+  -ms-grid-row: 2;
+}
+
+.days7 {
+  -ms-grid-column: 7;
+  -ms-grid-row: 2;
+}
+
+.ms-grid-row1 {
+  -ms-grid-row: 1;
+}
+
+.ms-grid-row2 {
+  -ms-grid-row: 2;
+}
+
+.ms-grid-row3 {
+  -ms-grid-row: 3;
+}
+
+.ms-grid-row4 {
+  -ms-grid-row: 4;
+}
+
+.ms-grid-row5 {
+  -ms-grid-row: 5;
+}
+
+.ms-grid-row6 {
+  -ms-grid-row: 6;
+}
+
+.ms-grid-row7 {
+  -ms-grid-row: 7;
+}
+
+.ms-grid-row8 {
+  -ms-grid-row: 8;
+}
+
+.ms-grid-col1 {
+  -ms-grid-column: 1;
+}
+
+.ms-grid-col2 {
+  -ms-grid-column: 2;
+}
+
+.ms-grid-col3 {
+  -ms-grid-column: 3;
+}
+
+.ms-grid-col4 {
+  -ms-grid-column: 4;
+}
+
+.ms-grid-col5 {
+  -ms-grid-column: 5;
+}
+
+.ms-grid-col6 {
+  -ms-grid-column: 6;
+}
+
+.ms-grid-col7 {
+  -ms-grid-column: 7;
+}
+/*# sourceMappingURL=index1.css.map */

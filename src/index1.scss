@@ -1,0 +1,30 @@
+.Calendar{
+    display:-ms-grid;
+    display:grid;
+  -ms-grid-columns:70px 70px 70px 70px 70px 70px 70px;
+   grid-template-columns: 50px 50px 50px 50px 50px 50px 50px ;
+   grid-auto-rows: 50px; 
+ }
+
+.Calendar>*{padding: 10px;}
+
+@for $j from 1 through 8 {
+  .ms-grid-row#{$j}  {
+    
+    -ms-grid-row: $j;
+    grid-row: $j;
+}
+
+}
+@for $j from 1 through 7 {
+  .ms-grid-col#{$j} {
+    
+    -ms-grid-column: $j;
+    grid-column: $j;
+}
+
+}
+
+
+ 
+ 
